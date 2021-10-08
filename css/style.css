@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Niconne&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+#header-section{
+    width: 100%;
+    background: #2D25A0;
+}
+.banner-section{
+    background: #2D25A0;
+}
+}
+.header-section ul{
+    float: left;
+
+}
+.header-section ul li{
+    display: inline-block;
+    line-height: 100px;
+    margin: 0 5px;
+}
+.header-section ul li a{
+    color: #fff;
+    font-size: 17px;
+    text-decoration: none;
+    padding: 7px 13px;
+    border-radius: 5px;
+}
+
+.header-section ul li a:hover{
+    background: #1b9bff;
+    transition: all .5s;
+}
+
+
+.login{
+    background-color: #E83B3E;
+    border-color: #E83B3E;
+    padding: 0px 32px;
+    font-size: 20px;
+    text-decoration: none;
+    float: right;
+    margin-top: 33px;
+    line-height: 39px;
+
+    position: relative;
+    z-index: 1;
+    color: #fff !important;
+}
+
+.login{
+    border: none;
+}
+
+.login::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #1b9bff;
+    border-color: #1b9bff;
+    border-radius: 5px;
+
+    z-index: -1;
+    transition: .3s;
+}
+.login:hover::after{
+    width: 100%;
+} 
+
+.login i {
+	font-size: 18px;
+	margin-left: -15px;
+	margin-right: 8px;
+}
+
+/* check-box-start */
+
+label #btn,
+label #cancel{
+   font-size: 30px;
+   color: #fff;
+   float: left;
+   line-height: 80px;
+   margin-right: 40px;
+   cursor: pointer;
+   display: none;
+}
+#check{
+    display: none;
+}
+
+/* check-box-end */
+
+.info {
+    margin-left: 40px;
+    position: relative;
+}
+
+.info h1{
+    font-size: 72px;
+    color: #fff;
+    margin-bottom: 20px;
+    margin-top: 90px;
+}
+
+.watch-btn{
+    background-color: #E83B3E;
+    border-color: #E83B3E;
+    padding: 9px 32px;
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 22px;
+    line-height: 115px;
+    border-radius: 5px;
+
+    position: relative;
+    z-index: 1;
+    color: #fff !important;
+}
+
+.watch-btn{
+    border: none;
+}
+
+.watch-btn::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #1b9bff;
+    border-color: #1b9bff;
+    border-radius: 5px;
+
+    z-index: -1;
+    transition: .3s;
+}
+.watch-btn:hover::after{
+    width: 100%;
+} 
+
+.watch-btn i {
+    font-size: 18px;
+    margin-left: 8px;
+    margin-right: -1px;
+}
+
+.img-box {
+    position: relative;
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.back-img {
+    width: 62%;
+   
+  }
+  .main-img {
+    width: 89%;
+    position: absolute;
+    top: 18px;
+    right: 35px;
+  }
+
+
+
+
+
+  .single_news {
+    width: 100%;
+    margin-right: 30px;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 30px;
+    margin-top: 100px;
+  }
+    .single_news:last-child {
+        margin-right: 0px !important;
+        border: 1px solid #ddd;
+        box-sizing: border-box;
+        box-shadow: 3px 10px 15px 6px rgba(0, 0, 0, 0.1);
+        padding: 17px;
+        border: none;
+    }
+  
+  .single_news:last-child .news_title h2 {
+      margin-top: -22px;
+  }
+  
+  .single_news:hover img{
+      transform: scale(1.2);
+  }
+  
+  .news_img{
+      overflow: hidden;
+  }
+  
+  .news_img img {
+    max-width: 100%;
+      transition: .5s;
+      cursor: pointer;
+  }
+  
+  .news_title h2 {
+    font-size: 20px;
+    padding-top: 36px;
+    font-weight: 700;
+}
+.news_title p {
+    color: #777;
+    margin-bottom: 16px;
+    font-size: 20px;
+}
+
+
+.highlight-text {
+    margin-top: 205px !important;
+}
+.highlight-text h1 {
+    font-size: 59px;
+}
+.highlight-text p {
+    font-size: 25px;
+    color: #888;
+    margin-bottom: -16px;
+    line-height: 34px;
+}
+  
+  
+  
+   .highlight-img {
+    margin-top: 114px;
+  } 
+  .football-img img {
+    width: 90%;
+}
+
+  .fb-wrapper {
+    display: flex;
+    justify-content: center;
+ margin-top: 110px;
+    margin-bottom: 49px; 
+}
+
+.football-text h1 {
+    font-size: 65px;
+    color: #2D25A0;
+    font-weight: 400;
+    font-family: 'Niconne', cursive;
+} 
+
+.footer_icon {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -46px;
+}
+
+.footer_icon a {
+	display: block;
+	width: 46px;
+	background: #E7E7E8;
+	display: grid;
+	place-items: center;
+	padding: 12px;
+	margin-right: 17px;
+	border-radius: 50%;
+	text-decoration: none;
+	color: #fff;
+	transition: .5s;
+	cursor: pointer;
+	font-size: 21px;
+}
+
+.footer_icon a:hover{
+    color: #10437A;
+}
+
+#footer-section{
+    background: #2D25A0;
+    height: 10vh;
+    margin-top: 130px; 
+}
+
+.footer-text h1 {
+    color: #fff;
+    font-size: 25px;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 300;
+}
+
+
